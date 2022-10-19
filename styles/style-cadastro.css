@@ -1,0 +1,13 @@
+body {
+    background-color: #B8E8FC;
+}
+.form-container {
+    background-color: #7978FF;
+    width: 50%;
+    height: 30rem;
+    font-size: 25px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    
+}
