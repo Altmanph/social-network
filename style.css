@@ -2,11 +2,18 @@ body {
     background-color: #B8E8FC;
     margin: 0;
 }
+a {
+    text-decoration: none;
+}
+a,a:visited {
+    color: white;
+}
 .barraNavegacao {
     background-color: #7978FF;
     height: 60px;
     width: 100%;
-    /* position: absolute; */
+    position: fixed;
+    
 }
 .cadastrar {
     background-color: darkorange;
@@ -14,8 +21,9 @@ body {
     width: 70px;
     border-radius: 10px;
     text-align: center;
-    
-    /* position: relative; */
+    position: absolute;
+    right: 50px;
+    top: 10px;
 }
 .login {
     background-color: darkorange;
@@ -23,5 +31,30 @@ body {
     width: 70px;
     border-radius: 10px;
     text-align: center;
-    /* position: relative; */
+    position: absolute;
+    right: 130px;
+    top: 10px;
+}
+#textoCadastro {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+#textoLogin {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.bottom-container {
+    position: absolute;
+    top: 100px;
+    width: 80%;
+    margin: auto;
+}
+.imagem {
+    width: 40%;
+    border-radius: 20px;
+    float: left;
+}
+.descritivoSite {
+    font-size: 2rem;
+    line-height: 2;
 }
