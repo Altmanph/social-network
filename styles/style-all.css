@@ -1,0 +1,12 @@
+body {
+    background-color: #B8E8FC;
+}
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+.main {
+    padding-top: 5%;
+}
