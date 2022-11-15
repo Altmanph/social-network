@@ -10,3 +10,35 @@ h1 {
 .main {
     padding-top: 5%;
 }
+
+/*home-style*/
+
+.video-app{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+}
+.videos{
+    position: relative;
+    width: 720px;
+    padding: 0;
+    border: 1px red solid;
+}
+.social{
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 650px;
+    float: right;
+    width: 50px;
+    border: 1px white solid;
+}
+.like,.comment,.share i{
+    color: #ffff;
+    font-size: 33px;
+    
+}
+.like,.comment,.share{
+ margin-bottom: 10px;
+    
+}
