@@ -16,34 +16,77 @@ h1 {
 .video-app{
     width: 1920px;
     height: 1080px;
-
 }
+
 .videos{
+    position: relative;
     width: 720px;
     height: 1280px;
     padding: 0;
+    border: 1px black solid;
+}
+
+.head-nav-bar{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 100px;
     border: 1px red solid;
 }
+
+.head-nav-bar button{ 
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-size: 33px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.head-nav-bar .separation-bar{
+    float: left;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-size: 33px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.following,.for-you,.nearby{
+    float: left;
+    
+}
+
 .social{
     position: absolute;
-    margin-top: -1000px;
-    margin-left: 650px;
+    margin-top: -800px;
+    margin-left: 645px;
     float: right;
     width: 50px;
-    border: 1px white solid;
+    border: 1px green solid;
 }
+
 .like,.comment,.share,.music i{
-    color: #ffff;
+    color: rgb(255, 255, 255);
     font-size: 33px;
-    
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+    
 .like,.comment,.share{
- margin-bottom: 10px;
-    
+    margin-bottom: 10px;
 }
 
-.top-navegation-bar{
-       border: 1px green solid;
+.footer-nav-bar{
+    width: 690px;
+    margin-top: -3px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
 }
-
-
+.home,.search,.record,.inbox,.my-profile{
+    color: rgb(255, 255, 255);
+    float: left;
+    font-size: 65px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: 0 35px;
+}
