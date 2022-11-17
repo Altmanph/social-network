@@ -14,26 +14,25 @@ h1 {
 /*home-style*/
 
 .video-app{
-    position: relative;
     width: 1920px;
     height: 1080px;
 
 }
 .videos{
-    position: relative;
     width: 720px;
+    height: 1280px;
     padding: 0;
     border: 1px red solid;
 }
 .social{
     position: absolute;
-    margin-top: -550px;
+    margin-top: -1000px;
     margin-left: 650px;
     float: right;
     width: 50px;
     border: 1px white solid;
 }
-.like,.comment,.share i{
+.like,.comment,.share,.music i{
     color: #ffff;
     font-size: 33px;
     
@@ -42,3 +41,9 @@ h1 {
  margin-bottom: 10px;
     
 }
+
+.top-navegation-bar{
+       border: 1px green solid;
+}
+
+
